@@ -1,0 +1,222 @@
+/* Style */
+
+body {
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.header-hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-hero button,
+.button-container button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.header-hero p,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-image {
+    background-color: grey;
+}
+
+.one-img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+}
+
+.one-information h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.container-two {
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-source {
+    font-weight: 800;
+}
+
+.three-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
+.footer {
+    color: #E5E7EB;
+}
+
+.footer p {
+    margin: 16px 0;
+}
+
+.button-container button {
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 4px 32px;
+}
+
+/*Flexbox*/
+
+.header,
+.header-top,
+.header-bottom,
+.header-logo,
+.header-links,
+.container-one,
+.one-information,
+.one-cards,
+.container-two,
+#quote-source,
+.container-three,
+.three-container,
+.three-information,
+.button-container,
+.footer {
+    display: flex;
+}
+
+.header-logo,
+.header-links,
+.header-image,
+.header-hero {
+    flex: 1;
+}
+
+.header,
+.container-one,
+.one-information,
+.one-cards,
+.container-two,
+.container-three,
+.footer {
+    justify-content: center;
+}
+
+.header-logo,
+.container-two,
+.footer {
+    align-items: center;
+}
+
+.header-links {
+    justify-content: end;
+    align-items: center;
+}
+
+.header-bottom {
+    margin: 64px 0;
+    padding: 8px;
+}
+
+.header-hero h1,
+.header-hero p {
+    margin-bottom: 8px;
+}
+
+.header-top,
+.one-information,
+.one-cards {
+    padding: 8px;
+}
+
+.header-image {
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 16px;
+}
+
+.header-hero button {
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px 32px;
+}
+
+.one-information {
+    margin: 32px 0;
+}
+
+.one-card {
+    width: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+.one-cards {
+    gap: 32px;
+}
+
+.two-container {
+    width: 512px;
+    margin: 64px 0;
+    padding: 8px;
+}
+
+#quote-source {
+    justify-content: end;
+}
+
+.three-container {
+    padding: 32px 64px;
+    margin: 64px 0;
+    gap: 64px;
+}
+
+.three-information {
+    flex-direction: column;
+    justify-content: center;
+}
+
